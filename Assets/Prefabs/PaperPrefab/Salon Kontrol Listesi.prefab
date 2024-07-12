@@ -10614,8 +10614,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.01
-  m_fontSizeBase: 0.01
+  m_fontSize: 0.005
+  m_fontSizeBase: 0.005
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23324,6 +23324,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b8bc7c46277ba45aa836b07407031e31, type: 2}
+    - target: {fileID: 2466466340937107401, guid: ad6cef741b35f4bb7932b13c598adf33,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 1086
+      objectReference: {fileID: 0}
     - target: {fileID: 5385543574821645821, guid: ad6cef741b35f4bb7932b13c598adf33,
         type: 3}
       propertyPath: m_LocalPosition.x
