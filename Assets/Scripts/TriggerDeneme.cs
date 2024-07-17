@@ -12,6 +12,6 @@ public class TriggerDeneme : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        animator.Play("Open Door Outwards");
+        Debug.Log("Trigger Entered!");
     }
 }
