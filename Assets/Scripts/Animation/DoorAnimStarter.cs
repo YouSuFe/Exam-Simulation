@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class DoorAnimStarter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animator doorAnimator;
+    [SerializeField] private string doorAnimationName;
+
+    private void Start()
     {
-        
+        doorAnimator = GetComponent<Animator>();
+        doorAnimator.Play(doorAnimationName);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
