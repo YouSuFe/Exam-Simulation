@@ -2499,6 +2499,8 @@ PlayableDirector:
     value: {fileID: 1520237747}
   - key: {fileID: 8736889386860928511, guid: a508e39e48ecb44a3a74088b72d02906, type: 2}
     value: {fileID: 1520237746}
+  - key: {fileID: -7766409941668666635, guid: a508e39e48ecb44a3a74088b72d02906, type: 2}
+    value: {fileID: 589825170359543127}
   m_ExposedReferences:
     m_References:
     - cf6cab4f213624523bb156cb479fa7df: {fileID: 1817095437}
@@ -21979,7 +21981,7 @@ Transform:
   m_GameObject: {fileID: 1817095435}
   serializedVersion: 2
   m_LocalRotation: {x: 0.13052598, y: -0.000000029802322, z: -0.000000007450581, w: 0.99144495}
-  m_LocalPosition: {x: 0.00000975118, y: 1.656, z: -0.018006792}
+  m_LocalPosition: {x: 0.000011631637, y: 1.6560011, z: -0.018048054}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31828,6 +31830,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1632704819}
   m_SourcePrefab: {fileID: 100100000, guid: 45050fa9c66f44ce8b845706c4bfd8d3, type: 3}
+--- !u!95 &589825170359543127 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7795496446253839342, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 589825170359543126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2761548004988655964
 PrefabInstance:
   m_ObjectHideFlags: 0
