@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 4965693479196467604, guid: ca2c665e2090944b8b250510e53a8d68,
         type: 3}
       propertyPath: m_Name
-      value: Plastic Bag Variant
+      value: "Plastic Bag  Kitap\xE7\u0131kVariant"
       objectReference: {fileID: 0}
     - target: {fileID: 5039807336622376312, guid: ca2c665e2090944b8b250510e53a8d68,
         type: 3}
@@ -12238,7 +12238,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9052224811397045962, guid: ca2c665e2090944b8b250510e53a8d68, type: 3}
     m_RemovedGameObjects:
     - {fileID: 80332695866277764, guid: ca2c665e2090944b8b250510e53a8d68, type: 3}
     - {fileID: 8874591354818117863, guid: ca2c665e2090944b8b250510e53a8d68, type: 3}
