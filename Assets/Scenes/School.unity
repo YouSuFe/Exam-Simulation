@@ -1830,6 +1830,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 3c9fccced9e984ee7ba54d06bef127a9, type: 2}
     - {fileID: 11400000, guid: 785ba2fb111374127bab228dc3ecad79, type: 2}
     - {fileID: 11400000, guid: 14b53a9c1e67d413f928f7eeef4e9048, type: 2}
+    - {fileID: 11400000, guid: 397d43debfb4840c59603b6cca023c69, type: 2}
+    - {fileID: 11400000, guid: 7cae7b564da2147a8a760e23fdebd205, type: 2}
+    - {fileID: 11400000, guid: e1a45f654e3c24b3e8cb8fa112f48327, type: 2}
+    - {fileID: 11400000, guid: dcbe9f1a3fd8e494c81d4115192c9bc4, type: 2}
+    - {fileID: 11400000, guid: 18d602477746f4d0d8ebc2bde10ce142, type: 2}
+    - {fileID: 11400000, guid: 20605143b8bf5486cb2f3b2f80f1209b, type: 2}
+    - {fileID: 11400000, guid: ecfb72e4d99354c0ba451c12b720d474, type: 2}
+    - {fileID: 11400000, guid: 1387a0a4c7116435f9410bea30e8dfb1, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -1842,8 +1850,10 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131 Giri\u015F belgeleri
-              ile i\xE7eri girdikten sonra toplant\u0131 odas\u0131na gitmelidir. "
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131 s\u0131nav binas\u0131na
+              girmek i\xE7in gerekli G\xF6revlendirme Belgesi, S\u0131nav G\xF6revli
+              Kart\u0131 ve \xFCzerinde T\xFCrkiye Cumhuriyeti Kimlik Numaras\u0131
+              bulunan ge\xE7erli Kimlik Belgesi ile gelmelidir."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1859,8 +1869,8 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, toplant\u0131
               odas\u0131nda duran S\u0131nav Bina Sorumlusu\u2019nun yan\u0131nda
-              bulunan S\u0131nav G\xF6revli Listesi\u2019nde ad\u0131n\u0131 bulmal\u0131
-              ve imzas\u0131n\u0131 atmal\u0131d\u0131r. "
+              bulunan S\u0131nav G\xF6revli Listesi\u2019nde ad\u0131n\u0131 bulmal\u0131,
+              imza saatini yazmal\u0131 ve imza atmal\u0131d\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1874,9 +1884,9 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, imza att\u0131ktan
-              sonra Salon Kitap Paketini almal\u0131 ve g\xF6revli oldu\u011Fu s\u0131nav
-              salonuna gitmelidir.  "
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, Bina S\u0131nav
+              Sorumlusu\u2019ndan Salon S\u0131nav Paketi ve Kitap Paketinin bulundu\u011Fu
+              S\u0131nav Evrak Po\u015Feti\u2019ni teslim almal\u0131d\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1891,8 +1901,8 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, s\u0131n\u0131f
-              tahtas\u0131na S\u0131nav Ba\u015Flang\u0131\xE7 ve Biti\u015F saatlerini
-              yazar. "
+              tahtas\u0131na S\u0131nav Ba\u015Flang\u0131\xE7, Biti\u015F saatlerini
+              ve S\u0131navdan \xC7\u0131k\u0131labilecek s\xFCreyi yazar."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1923,9 +1933,10 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav adaylar\u0131 s\u0131n\u0131fa gerekli
-              belgeleri ile geldi\u011Fi kap\u0131da g\xF6zetmen taraf\u0131ndan
-              kontrol edilir ve s\u0131n\u0131fa al\u0131n\u0131r.  "
+            m_StringArgument: "Salon S\u0131nav Ba\u015Fkan\u0131, Aday\u0131n S\u0131nav
+              Giri\u015F Belgesi ve \xFCzerinde T\xFCrkiye Cumhuriyeti Kimlik Numaras\u0131
+              bulunan Ge\xE7erli Kimlik Belgesi\u2019ni G\xF6zetmen ile birlikte
+              kontrol ederek adaylar\u0131 s\u0131n\u0131fa al\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1939,11 +1950,12 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, \u201CSalon S\u0131nav
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, S\u0131nav Evrak
+              Po\u015Fetini a\xE7mal\u0131d\u0131r. Ard\u0131ndan \u201CSalon S\u0131nav
               Paketini A\xE7\u0131yorum\u201D diyerek paketi a\xE7ar ve i\xE7erisinde
-              bulunan Salon S\u0131nav Tutana\u011F\u0131, Aday Yoklama Listesi,
-              Salon Kontrol Listesi ve de Optikleri \xE7\u0131kart\u0131r. S\u0131nav
-              kurallar\u0131n\u0131 s\xF6yler. "
+              bulunan Salon S\u0131nav Tutana\u011F\u0131, Salon Kontrol Listesi
+              ve de Cevap Ka\u011F\u0131tlar\u0131n\u0131 \xE7\u0131kart\u0131r ve
+              daha sonra adaylara s\u0131nav kurallar\u0131n\u0131 s\xF6yler."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1957,7 +1969,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "\u0130lk \xF6nce optikler da\u011F\u0131t\u0131l\u0131r. "
+            m_StringArgument: "\u0130lk \xF6nce Cevap Ka\u011F\u0131tlar\u0131 da\u011F\u0131t\u0131l\u0131r. "
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1989,7 +2001,8 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "Ard\u0131ndan kitap\xE7\u0131klar da\u011F\u0131t\u0131l\u0131r. "
+            m_StringArgument: "S\u0131nav ba\u015Flamadan Y\xF6nerge\u2019de belirtilen
+              s\xFCre \xF6ncesinde kitap\xE7\u0131klar adaylara da\u011F\u0131t\u0131lmal\u0131d\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2005,22 +2018,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: "Adaylara, cevap k\xE2\u011F\u0131tlar\u0131 ve soru
               kitap\xE7\u0131klar\u0131ndaki ilgili alanlar\u0131 doldurmalar\u0131,
-              kodlamalar\u0131 ve imzalamalar\u0131 gerekti\u011Fini hat\u0131rlat\u0131r. "
-            m_BoolArgument: 0
-          m_CallState: 2
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1145745960}
-          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-          m_MethodName: SetDialogue
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, Aday Yoklama Listesi\u2019ni
-              ve Salon Kontrol Listesini gerekti\u011Fi gibi doldurur.  "
+              kodlamalar\u0131 ve imzalamalar\u0131 gerekti\u011Fini hat\u0131rlat\u0131n\u0131z."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2035,7 +2033,23 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, \u201C S\u0131nav
-              Ba\u015Flad\u0131\u201D diyerek s\u0131nav\u0131 ba\u015Flat\u0131r.  "
+              Ba\u015Flad\u0131\u201D diyerek s\u0131nav\u0131 ba\u015Flat\u0131r."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, Salon Kontrol
+              Listesi ve Salon S\u0131nav Tutana\u011F\u0131\u2019n\u0131 doldurmal\u0131
+              ve imzas\u0131n\u0131 atmal\u0131d\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2067,7 +2081,8 @@ MonoBehaviour:
             m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, \u201C S\u0131nav
               bitmi\u015Ftir.\u201D Diyerek s\u0131nav\u0131 sonland\u0131r\u0131r
               ve bu andan sonra adaylar herhangi bir i\u015Faretleme yapamaz. Yapmaya
-              \xE7al\u0131\u015Fan hakk\u0131nda gerekli i\u015Flemleri Ba\u015Flat\u0131r. "
+              \xE7al\u0131\u015Fan adaylar\u0131 Salon S\u0131nav Tutana\u011F\u0131\u2019na
+              yazmal\u0131s\u0131n\u0131z."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2081,7 +2096,9 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "Optikler ve kitap\xE7\u0131klar toplan\u0131r.  "
+            m_StringArgument: "Adaylar\u0131n salondan ayr\u0131lmadan \xF6nce Soru
+              Kitap\xE7\u0131klar\u0131n\u0131 ve Cevap Ka\u011F\u0131tlar\u0131n\u0131
+              eksiksiz olarak teslim etmeleri gerektiklerini belirtiniz."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2095,9 +2112,9 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, toplanan optik
-              ve kitap\xE7\u0131klar\u0131n say\u0131s\u0131n\u0131 sayarak gerekli
-              say\u0131da olduklar\u0131ndan emin olurlar.  "
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131 ve G\xF6zetmen,
+              toplanan optik ve kitap\xE7\u0131klar\u0131n say\u0131s\u0131n\u0131
+              sayarak gerekli say\u0131da olduklar\u0131ndan emin olurlar. "
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2111,9 +2128,136 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, t\xFCm belgeleri
-              yeniden Salon S\u0131nav Paketi\u2019nin i\xE7ine koyduktan sonra a\u011Fz\u0131n\u0131
-              kapat\u0131p belgeleri teslim etmeye g\xF6t\xFCr\xFCr. "
+            m_StringArgument: "Salon S\u0131nav Paketi ve Kitap Paketi\u2019ni kapaklar\u0131
+              ba\u015Fta olacak \u015Fekilde mukavvalar\u0131n aras\u0131na koyarak
+              lastiklemeli ve S\u0131nav Evrak Po\u015Feti\u2019nin i\xE7ine koyarak
+              po\u015Fetin band\u0131n\u0131 yap\u0131\u015Ft\u0131r\u0131p kapatmal\u0131s\u0131n\u0131z."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Binas\u0131na gelmeden \xF6nce Merkezi
+              S\u0131nav Y\xF6nergesi'ni okuyunuz."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, salonda bulunan
+              saatin do\u011Fru oldu\u011Funu kontrol etmelidir."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "Adaylar, S\u0131nav Giri\u015F Belgesi\u2019nde belirtilen;
+              s\u0131nav merkezi, bina, salon, s\u0131ra, s\u0131nav tarihi, saatinde
+              s\u0131nava girmek zorundad\u0131r."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav salonuna al\u0131nmas\u0131 yasak oldu\u011Fu
+              belirtilen e\u015Fyalarla gelen adaylar\u0131n salona girmesine kesinlikle
+              izin verilmez."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nava girmek i\xE7in gerekli belgelerin kontrol\xFC
+              s\u0131ras\u0131nda aday\u0131n kimli\u011Finden \u015F\xFCphelenirse,
+              durumu Bina S\u0131nav Sorumlusu\u2019na bildiriniz."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, adaylara s\u0131nav
+              kurallar\u0131n\u0131 anlat\u0131r."
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav ba\u015Flamadan 2 dakika \xF6nce adaylara
+              \u201CSoru kitap\xE7\u0131klar\u0131n\u0131 ilk sayfadan ba\u015Flamak
+              \xFCzere son sayfaya kadar h\u0131zl\u0131ca kontrol ediniz\u201D uyar\u0131s\u0131n\u0131
+              yap\u0131n\u0131z. "
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Evrak Po\u015Feti\u2019ni, Bina S\u0131nav
+              Sorumlusu\u2019na g\xF6t\xFCrmeli ve S\u0131nav G\xF6revli Listesi\u2019ne
+              saati yazarak imza ile teslim etmelisiniz."
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!320 &188987892
@@ -2163,10 +2307,12 @@ PlayableDirector:
     m_References:
     - 091a7574fca0648e8994c834bf89454f: {fileID: 1817095437}
     - 8523bae35bfef4bdc821678f112e9a70: {fileID: 1817095437}
+    - e4601de19d3f745fe9bc66f599ae2edd: {fileID: 1817095437}
     - c53c28bb144594b88b578fba8fd9839c: {fileID: 1486936471}
     - cf6cab4f213624523bb156cb479fa7df: {fileID: 1817095437}
     - ef845797a946f4af1b670c7376ee8268: {fileID: 2024843747}
     - 37f7876478a1a458ead6fccad67b7b69: {fileID: 1486936471}
+    - da14e987174c64903b1d51e86617bc9f: {fileID: 1817095437}
     - 237cb4741001648449e6c96ed16f76c4: {fileID: 1817095437}
     - 7718f83c6892f4a2d9b0eefc26d575c5: {fileID: 1817095437}
     - 133fbbe795c8c46cc885b93a4fe0853a: {fileID: 1817095437}
@@ -17726,8 +17872,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 76}
-  m_SizeDelta: {x: -200, y: 100}
+  m_AnchoredPosition: {x: 14.294678, y: 68.590744}
+  m_SizeDelta: {x: -80.9689, y: 114.8185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398193820
 MonoBehaviour:
@@ -18135,7 +18281,7 @@ Transform:
   m_GameObject: {fileID: 1486936469}
   serializedVersion: 2
   m_LocalRotation: {x: 0.025965428, y: -0.10686236, z: 0.041392606, w: 0.9930725}
-  m_LocalPosition: {x: -0.0077969856, y: 0.073997416, z: 0.10592082}
+  m_LocalPosition: {x: -0.007803177, y: 0.07401131, z: 0.106160685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18544,6 +18690,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 387048939}
+    - target: {fileID: 760692338560137026, guid: ca2c665e2090944b8b250510e53a8d68,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1677798930}
     - target: {fileID: 961847476226959430, guid: ca2c665e2090944b8b250510e53a8d68,
         type: 3}
       propertyPath: m_Mesh
@@ -18664,6 +18815,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2088527854}
+    - target: {fileID: 5039807336622376312, guid: ca2c665e2090944b8b250510e53a8d68,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1677798930}
+    - target: {fileID: 5039807336622376312, guid: ca2c665e2090944b8b250510e53a8d68,
+        type: 3}
+      propertyPath: m_VersionIndex
+      value: 2043
+      objectReference: {fileID: 0}
     - target: {fileID: 5766409458841618545, guid: ca2c665e2090944b8b250510e53a8d68,
         type: 3}
       propertyPath: m_Mesh
@@ -18729,6 +18890,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6611119163786669977, guid: ca2c665e2090944b8b250510e53a8d68,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1677798930}
     - target: {fileID: 7621815385146969261, guid: ca2c665e2090944b8b250510e53a8d68,
         type: 3}
       propertyPath: m_Mesh
@@ -19768,6 +19934,171 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!43 &1677798930
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-6704
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 288
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 172
+    localAABB:
+      m_Center: {x: 0, y: -0.0077992054, z: -0.027766146}
+      m_Extent: {x: 0.1288508, y: 0.015147182, z: 0.16541159}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600040006000700080009000a0009000b000a000c000d000e000c000e000f00100011001200110013001200140015001600140016001100170018001900170019001a0019001b001c001b001d001c001e001f00200021001e002000210022002300080021002300240025002600240027002500280026000f002800290026002a002b002c002b002d002c002e002f0030002e00300031003200330034003300350034003600370038003600380039003a003b003c003b003d003c003e003f0040003e00400041004200430044004200440045004600470048004700490048004a004b004c004d004a004c004e004f00500051004e0050005200530054005200550053005600570058005600590057005a005b005c005d005a005c005e005f00600061005e0060006200630064006200650063006600670068006600690067001f006a006b006c001f006b006a0015006d006b006a006d006e006f0070006e0071006f0072007300740073007500740076002700770076007800270079007800760079001d0078007a007b007c007d007a007c007e007f0080007e00800081008200830084008500820084008600870088008800870089008a008b008c008a008d008b008e008f00900090008f00910092004b009300920093009400940093003f0094003f0095009600970098009800970099009a009b009c009c009b009d009e009f00a0009f00a100a000a200a3009e00a3009f009e00a400a500a600a600a500a700a800a900aa00aa00a900ab00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 172
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 8256
+    _typelessdata: 8274dfbd7713283b0b5c9a3d32a3b4bedf296f3f2f4256bd59046f3f5113b23eb01eafbd000080bffb56dfbd1fb6973d73f103be781328bbf470ef3d42b8c0be3fe56c3f3542d6bc625b6c3fdff2be3e97a4bcbd000080bfebf703be33a9e73d8d74dfbd4f4bc63beaf20c3e42b8c0be3fe56c3f3542d6bc625b6c3fdff2be3e97a4bcbd000080bf3839dfbd39810a3e73f103be761328bbeaf20c3e52cdccbe9fa06a3f6bd7b0b26c7c693f43cecb3e39c4c9bd000080bfebf703bed263083e8d74dfbd4f4bc63beaf20c3e42b8c03e3fe56cbf3a42d63caafb6cbf9919c0beca96433d000080bfbe6fdf3dc09e0c3e73f103be761328bbeaf20c3e52cdcc3ea0a06abf6cd7303301536abf9189ccbe1e2b503d000080bf6bf2033eb8810b3e73f103be781328bbf470ef3d42b8c03e3fe56cbf3a42d63caafb6cbf9919c0beca96433d000080bf6bf2033e0ee6ec3d8274dfbd7713283b0b5c9a3d33a3b43ede296fbf2f42563dba766fbff495b3beabab363d000080bf6f72df3d0cd3993d73f1033e781328bbf470ef3d93b1713e59c4783fa57fbbb23c3f783f3f3071bef058843d000080bfffe1033ea184e53d39a3dc3d7713283b0b5c9a3d318e9a3e9941733f9f6ac5bce653733f6c8b99be1497a63d000080bfa2b1dc3d87e8953d73f1033e761328bbeaf20c3e318e9a3e9941733f9f6ac5bce653733f6c8b99be1497a63d000080bfffe1033e8951073e33a3dc3d3df1bd3beaf20c3e9843bc3ed9be6d3f996a45bdba566d3f865db9bebd97c63d000080bf3ccddc3dca89093e73f1033e761328bbeaf20c3e308e9abe994173bf9f6ac53c80df73bf79719a3ec6001fbd000080bf68f003beed740b3e33a3dc3d3df1bd3beaf20c3e9843bcbed9be6dbf996a453d24f96dbf0d33bb3e5ee73fbd000080bfaea7dcbd868b0c3e39a3dc3d7713283b0b5c9a3d308e9abe994173bf9f6ac53c80df73bf79719a3ec6001fbd000080bf2ba5dcbd84bd993d73f1033e781328bbf470ef3d92b171be59c478bfa57fbb321aa778bf2895713ec63df8bc000080bf68f003be77ccec3d8374dfbd7813283b880040be87c080be07c6773fb02c0932e551773f2e84803e4fbf77bd000080bffc56dfbd64d838be73f103be781328bb840040be86c080be07c6773fb02c8931e551773f2d84803e18bf77bd000080bfebf703be2d123abe8274dfbd7713283b0b5c9a3d86c080be07c6773fb02c8931e551773f2d84803e18bf77bd000080bffb56dfbd1fb6973d73f103be781328bbf470ef3d84c080be07c6773f00000000e551773f2c84803ee0be77bd000080bfebf703be33a9e73d8374dfbd7813283b880040bea8c000be24da5a3f5ea5abbee4947d3f5cdb083e3d7bfbbc000080bffc56dfbd64d838be8374dfbd781328bb60d045bee58085b541ee3d3f5fa52bbf50ff7f3fdc8b493b40eb5e3b000080bfd482dfbd2cc83fbe73f103be761328bb5ed045bea8c000be24da5a3f5ea5abbee4947d3f5cdb083e3d7bfbbc000080bfebf703be27b33fbe8274dfbd7713283b0b5c9a3d86c0803e07c677bfb02c89b1bfa577bfc0af80be65aa023d000080bf6f72df3d0cd3993d73f103be781328bbf470ef3d84c0803e07c677bf00000000bfa577bfbdaf80be08aa023d000080bf6bf2033e0ee6ec3d73f103be781328bb840040be86c0803e07c677bfb02c89b1bfa577bfc0af80be65aa023d000080bf6bf2033e95c33ebe8374dfbd7813283b880040be87c0803e07c677bfb02c09b2bea577bfc1af80bec2aa023d000080bf7072df3d501a3ebe73f103be761328bb5ed045bea8c0003e24da5abf5ea5ab3e18817dbf81300dbed22aa23c000080bf6bf2033e758744be8374dfbd7813283b880040bea8c0003e24da5abf5ea5ab3e18817dbf81300dbed22aa23c000080bf7072df3d501a3ebe8374dfbd781328bb60d045bee580853541ee3dbf5fa52b3f000080bfc68923b9546733b9000080bf7576df3d728844be73f1033e761328bb5ed045bed6b1f13d4d595b3f5da5abbe83e77d3f19dafabd4ed2133d000080bfffe1033e70c540be3aa3dc3d781328bb60d045bebf9c793541ee3d3f5ea52bbf50ff7f3fe668493bbaf45e3b000080bfcb85dc3df8ae40be3aa3dc3d7813283b880040bed6b1f13d4d595b3f5da5abbe83e77d3f19dafabd4ed2133d000080bfa3b1dc3d30bf39be73f1033e781328bb840040be98b1713e59c4783f2936ab333b3f783f433071be2e59843d000080bfffe1033e77243bbe3aa3dc3d7813283b880040be96b1713e59c4783fa2dbe5313b3f783f413071be1f59843d000080bfa3b1dc3d30bf39be39a3dc3d7713283b0b5c9a3d94b1713e59c4783fa2db65313c3f783f403071bef858843d000080bfa2b1dc3d87e8953d3aa3dc3d7813283b880040bed6b1f1bd4d595bbf5da5ab3e5bcf7dbf4f3d043e52449bbc000080bf2ca5dcbd15253ebe73f1033e761328bb5ed045bed6b1f1bd4d595bbf5da5ab3e5bcf7dbf4f3d043e52449bbc000080bf68f003be419444be73f1033e781328bb840040be98b171be59c478bf2936abb31ba778bf2f95713e8b3bf8bc000080bf68f003be61d03ebe3aa3dc3d781328bb60d045bebf9c79b541ee3dbf5ea52b3f000080bf5f6421b9e90934b9000080bf27a1dcbd369344be39a3dc3d7713283b0b5c9a3d94b171be59c478bf2cb781b11ba778bf2b95713e053cf8bc000080bf2ba5dcbd84bd993d3aa3dc3d7813283b880040be96b171be59c478bf2cb701b21ba778bf2d95713e8e3bf8bc000080bf2ca5dcbd15253ebe8a74df3d186501bc0e5c9a3d0e46b33e92706fbf358750bdd7577a3ec3dc1e3d7c08783f000080bf88a2e93d1f3f0dbc75f1033ea06d35bbf870ef3dc410bf3e9c3e6dbf6485d0bc823c6f3e481b8a3de850783f000080bf9e9e093e9206c9bb8174df3d8fee38bcedf20c3ec410bf3e9c3e6dbf6485d0bc823c6f3e481b8a3de850783f000080bf7c5de93d4b6052bc70f1033e826d35bbecf20c3e79dbca3ea70c6bbf48a4e83579e5633e0cb0c43d9a5d783f000080bf42f7093e42aef3bb8174df3d8fee38bcedf20c3ec310bfbe9c3e6d3f6985d03c64786dbf4a3fbfbe0aa50db6000080bf944bf7bd932c2fbc70f1033e826d35bbecf20c3e78dbcabea70c6b3fa4dfe5b5a70c6bbf78dbcabe384ba6b5000080bf6baa11be902c2fbc75f1033ea06d35bbf870ef3dc310bfbe9c3e6d3f6985d03c64786dbf4a3fbfbe0aa50db6000080bf6faa11be6b5418bc8a74df3d186501bc0e5c9a3d0e46b3be92706f3f3587503d2ac06fbfa481b3beeb9ebdb5000080bfc40bfabdd419d5bb73f103be206a35bbf870ef3d31b271be50c478bffeb2b6b4f246813e33347bbd063577bf000080bf273b06be2c2ed0bb45a3dcbd586401bc0e5c9a3d1528c9be9a3a66bf834b72bd3bdc823eb03245bdb13077bf000080bf98e6dfbd6ce610bc77f103be016a35bbecf20c3e1528c9be9a3a66bf834b72bd3bdc823eb03245bdb13077bf000080bf008f06bec552fbbb3fa3dcbd25af89bceaf20c3e89bb0cbfe3b053bf554bf2bd899c843e809d0bbd311c77bf000080bfd3aeddbd66d559bc77f103be016a35bbecf20c3e1528c93e993a663f834b723d13696abfc083cd3eb263abbc000080bf2aec1f3ef42926bc3fa3dcbd25af89bceaf20c3e89bb0c3fe3b0533f554bf23d2b3055bf5bba0d3f151785b5000080bf7af4053ef02926bc45a3dcbd586401bc0e5c9a3d1528c93e993a663f834b723d13696abfc083cd3eb263abbc000080bf92010b3eb86bc2bb73f103be206a35bbf870ef3d31b2713e4fc4783fffb2b634ad8f78bf0f7f713e157e26bd000080bf27ec1f3ef4870fbc8d74df3df06401bc8a0040be7bc0803e08c677bfeaa1f8b392d481362ebf6d350000803f000080bf6e74df3dd86401bc77f1033e006d35bb860040be80c0803e08c677bff80ee1b3b93381364f7c6f350000803f000080bf8bf1033e4c6935bb8a74df3d186501bc0e5c9a3d80c0803e08c677bff80ee1b3b93381364f7c6f350000803f000080bf7374df3dfa6501bc75f1033ea06d35bbf870ef3d84c0803e07c677bf057cc9b387938036c83a71350000803f000080bf8ef1033e836e35bb8d74df3df06401bc8a0040be8bc0003e23da5abf63a5abbe61297d3f9596d43dfa7ad93d000080bfc074df3d486501bc8d74df3dc06c35bb62d045bef6c2f2343dee3dbf63a52bbf0000803fb09d4a3550ab2cb4000080bfc274df3d206e35bb77f1033e006d35bb60d045be8bc0003e23da5abf63a5abbe61297d3f9596d43dfa7ad93d000080bf91f1033ea06e35bb77f1033e006d35bb860040be7cc0803e09c677bf00000000e19c713fe0197b3e95ed623e000080bf91f1033e703bb7bb8a74df3d186501bc0e5c9a3d80c080be08c6773ff80ee1334d0beeb6f7dbe8b5000080bf000080bf2774dfbd126701bc75f1033ea06d35bbf870ef3d84c080be07c6773f057cc933b84beeb6a7a4eab5000080bf000080bfd0f103be856d35bb77f1033e006d35bb860040be80c080be08c6773ff80ee1334d0beeb6f7dbe8b5000080bf000080bfcaf103bef66335bb8d74df3df06401bc8a0040be7bc080be08c6773feaa1f83355caedb6b312e7b5000080bf000080bf1a74dfbd046501bc77f1033e006d35bb860040be7cc080be09c6773f00000000abf7073e954e0d3d59947d3f000080bf5867dfbd006401bc77f1033e006d35bb60d045be8bc000be23da5a3f63a5ab3ed566613e5ee2a7bea6306b3f000080bf3cea03be40c204bc8d74df3df06401bc8a0040be8bc000be23da5a3f63a5ab3ed566613e5ee2a7bea6306b3f000080bf7a84dfbd00f927bb8d74df3dc06c35bb62d045bef6c2f2b43dee3d3f63a52b3f113b8a3ea24525bfade0363f000080bfe1f703be008e4bbb71f103be806935bb60d045be75b2f1bd46595bbf63a5abbef9807d3faf8dc7bd73e6cbbd000080bf58f103be406b35bb43a3dcbdc06935bb62d045beb144c5b53cee3dbf63a52bbf0000803fa76abdb5693d29b5000080bf10a3dcbd006b35bb43a3dcbd306401bc8a0040be75b2f1bd46595bbf63a5abbef9807d3faf8dc7bd73e6cbbd000080bf10a3dcbd906401bc71f103be806935bb860040be12b271be51c478bf000000002a4b733fbf606cbe679e55be000080bf58f103be003ab7bb71f103be806935bb860040be14b271be51c478bf585d1db48f85d535e6f67cb4000080bf000080bf80f103be6a6735bb43a3dcbd306401bc8a0040be11b271be51c478bf4f3b22b4c728d535694077b4000080bf000080bf11a3dcbd896401bc45a3dcbd586401bc0e5c9a3d14b271be51c478bf585d1db48f85d535e6f67cb4000080bf000080bf15a3dcbdf26401bc73f103be206a35bbf870ef3d18b271be51c478bf627f18b424e2d535835681b4000080bf000080bf83f103be456935bb43a3dcbd306401bc8a0040be75b2f13d46595b3f63a5ab3e53707dbfd30b103e869534bc000080bf6b8bdc3de06001bc71f103be806935bb60d045be75b2f13d46595b3f63a5ab3e53707dbfd30b103e869534bc000080bfa2fc033e007735bb71f103be806935bb860040be12b2713e51c4783f00000000d7ba78bfdda8713efc5b8dbc000080bfe5e3033ee05207bc43a3dcbdc06935bb62d045beb144c5353cee3d3f63a52b3f24ef7fbff032793cbfda89bc000080bf8325df3dc0021fbb45a3dcbd586401bc0e5c9a3d16b2713e51c4783f585d1d34637a97be2f2c933dbbd873bf000080bfe667e23dfa3fe5bb71f103be806935bb860040be16b2713e51c4783f585d1d34637a97be2f2c933dbbd873bf000080bfacf1033ee16935bb73f103be206a35bbf870ef3d1ab2713e51c4783f627f1834627a97be302c933dbcd873bf000080bfe799dd3df48e19bc43a3dcbd306401bc8a0040be11b2713e51c4783f4f3b2234657a97be2f2c933dbad873bf000080bfff75033e5c7ea9ba39a3dc3d7713283b0b5c9a3de067ab3c88a67f3feb423dbcc0ee7f3f2aafaabcd2731d3c000080bfa2b1dc3d87e8953d025334ba4cc7f03b0a5c9a3d3b75343d4ca57f3f3551eb3c02b77f3f475936bdfa11803c000080bf55e514bac93f993d025334ba8714b63beaf20c3ee067ab3c88a67f3feb423dbcc0ee7f3f2aafaabcd2731d3c000080bf418d1cba87ed093e33a3dc3d3df1bd3beaf20c3eb1d510bbc3a77f3f104a54bd65ff7f3fa9301d3be2546a3b000080bf3ccddc3dca89093e025334ba4cc7f03b0a5c9a3db990a1bc2c9f7f3fb2f95dbc37f37f3f6faea13c2ba357ba000080bf55e514bac93f993d8274dfbd7713283b0b5c9a3d2e4034bd205a7f3f6ac264bdd3bf7f3f82ea323d63c3e6bb000080bffb56dfbd1fb6973d8d74dfbd4f4bc63beaf20c3eb990a1bc2c9f7f3fb2f95dbc37f37f3f6faea13c2ba357ba000080bf3839dfbd39810a3e025334ba8714b63beaf20c3ea67b953b39e47f3f228beb3c50fe7f3f35a39abbd91fb13b000080bf418d1cba87ed093e025334ba8714b63beaf20c3ee067abbc88a67fbfe9423d3c65f17fbf5554ab3cb2653cbb000080bf3025323af1880c3e39a3dc3d7713283b0b5c9a3de067abbc88a67fbfe9423d3c65f17fbf5554ab3cb2653cbb000080bf2ba5dcbd84bd993d33a3dc3d3df1bd3beaf20c3eb1d5103bc3a77fbf104a543dd8ff7fbf60b810bbe3ccbe38000080bfaea7dcbd868b0c3e025334ba4cc7f03b0a5c9a3d3b7534bd4ca57fbf3751ebbcb6be7fbf4637353da950bfbb000080bf6071313ad7059b3d8d74dfbd4f4bc63beaf20c3eb990a13c2c9f7fbfb4f95d3c16f37fbfeb83a1bc3ba4173b000080bfbe6fdf3dc09e0c3e025334ba4cc7f03b0a5c9a3db990a13c2c9f7fbfb4f95d3c16f37fbfeb83a1bc3ba4173b000080bf6071313ad7059b3d025334ba8714b63beaf20c3ea67b95bb39e47fbf228bebbc4bff7fbfce46963b48864bba000080bf3025323af1880c3e8274dfbd7713283b0b5c9a3d2e40343d205a7fbf6bc2643d3ac07fbf624b33bd44dab03b000080bf6f72df3d0cd3993d405234ba781328bb60d045be0000000041ee3d3f5fa52bbf50ff7f3f6b7a493bd8f05e3b000080bf1f423fba923b40be405234ba7813283b880040be0000000041ee3d3f5fa52bbf50ff7f3f6b7a493bd8f05e3b000080bf1a5629baca4b39be3aa3dc3d7813283b880040be0000000041ee3d3f5fa52bbf50ff7f3f6b7a493bd8f05e3b000080bfa3b1dc3d30bf39be8374dfbd7813283b880040be0000000041ee3d3f5fa52bbf50ff7f3f6b7a493bd8f05e3b000080bffc56dfbd64d838be405234ba7813283b880040beac80b43cc0da7f3f3be514bc0ced7f3f2fd2b3bcc901213c000080bf1a5629baca4b39be39a3dc3d7713283b0b5c9a3dac80b43cc0da7f3f3be514bc0ced7f3f2fd2b3bcc901213c000080bfa2b1dc3d87e8953d3aa3dc3d7813283b880040be000000000000803fb27673306dff7f3fe2a482ac045f893b000080bfa3b1dc3d30bf39be025334ba4cc7f03b0a5c9a3dac80343d7fb57f3f3be594bc4fb97f3fa45c33bd7a127d3c000080bf55e514bac93f993d025334ba4cc7f03b0a5c9a3dac8034bd7fb57f3f3de594bc08bf7f3fbcff333d09fee8bb000080bf55e514bac93f993d405234ba7813283b880040beac80b4bcc0da7f3f3de514bc07f07f3fd573b43c2a72bfba000080bf1a5629baca4b39be8274dfbd7713283b0b5c9a3dac80b4bcc0da7f3f3de514bc07f07f3fd573b43c2a72bfba000080bffb56dfbd1fb6973d8374dfbd7813283b880040be000000000000803fb27673306dff7f3fe2a482ac045f893b000080bffc56dfbd64d838be405234ba7813283b880040be0000000041ee3dbf5fa52b3f000080bfb94522b9fc8e33b9000080bfc350333ab21f3ebe3aa3dc3d7813283b880040be0000000041ee3dbf5fa52b3f000080bfd85422b9b79f33b9000080bf2ca5dcbd15253ebe405234ba781328bb60d045be0000000041ee3dbf5fa52b3f000080bf9b3622b9427e33b9000080bfa253353ad48d44be8374dfbd7813283b880040be0000000041ee3dbf5fa52b3f000080bf9c3622b9437e33b9000080bf7072df3d501a3ebe39a3dc3d7713283b0b5c9a3daa80b4bcc0da7fbf3ae5143cd3ef7fbf5556b43c129644bb000080bf2ba5dcbd84bd993d025334ba4cc7f03b0a5c9a3daa8034bd7fb57fbf3ae5943c84bf7fbf0119343d562cbebb000080bf6071313ad7059b3d405234ba7813283b880040beaa80b4bcc0da7fbf3ae5143cd3ef7fbf5556b43c129644bb000080bfc350333ab21f3ebe3aa3dc3d7813283b880040be00000000000080bfb27673b0000080bffa883e2a955848b9000080bf2ca5dcbd15253ebe8274dfbd7713283b0b5c9a3dac80b43cc0da7fbf3ce5143ce4ef7fbfa95db4bcaa942b3b000080bf6f72df3d0cd3993d8374dfbd7813283b880040be00000000000080bfb27673b0000080bf9a653e2a633348b9000080bf7072df3d501a3ebe405234ba7813283b880040beac80b43cc0da7fbf3ce5143ce4ef7fbfa95db4bcaa942b3b000080bfc350333ab21f3ebe025334ba4cc7f03b0a5c9a3dac80343d7fb57fbf3ce5943ca3bf7fbf5b2034bdcbb3b13b000080bf6071313ad7059b3d3fa3dcbd25af89bceaf20c3ecda77bbd77947cbfd0ee1ebc4f817f3fa8907ebd0b2cfdb8000080bf159adcbd402d2ebc45a3dcbd586401bc0e5c9a3dc0630bbe860f7bbf99ad0fbec3927d3f6fa80cbe69c762ba000080bfe683ddbd7439d3bbfb4c343a10fabbbc0d5c9a3dcda77bbd77947cbfd0ee1ebc4f817f3fa8907ebd0b2cfdb8000080bf9dd2653ad46ed3bbfb4c343a7aaa7bbcecf20c3e99fd583c68197ebf7e9ff73d17fa7f3f15d75b3cb2ab233a000080bff34a023a3a1a2ebcfb4c343a7aaa7bbcecf20c3e43a4183decf17dbf0579f73d86d17f3fb8321a3da01c623a000080bff34a023a3a1a2ebcfb4c343a10fabbbc0d5c9a3d9ebcb23dbe927dbf3337093dc3027f3f2cd8b33ddc7fb23a000080bf9dd2653ad46ed3bb8174df3d8fee38bcedf20c3e9ebcb23dbe927dbf3337093dc3027f3f2cd8b33ddc7fb23a000080bf615ede3decff2dbc8a74df3d186501bc0e5c9a3d8d930c3e8f337dbfa4835cbd7b927d3ffead0c3ec837f13a000080bf7705de3d60fdd2bbfb4c343a10fabbbc0d5c9a3dcda77b3d77947c3fd0ee1e3c65807fbf70c17e3db5ff99bb000080bf9e6e57ba7844d4bb3fa3dcbd25af89bceaf20c3ecda77b3d77947c3fd0ee1e3c65807fbf70c17e3db5ff99bb000080bf09c6da3d1d192fbcfb4c343a7aaa7bbcecf20c3e99fd58bc68197e3f7e9ff7bdccf97fbfaac85ebc969c09bb000080bfc706b7bacfd82ebc45a3dcbd586401bc0e5c9a3dc0630b3e860f7b3f99ad0f3ec9867dbf05d00d3e45b7ebbb000080bf4064d93d6efdd5bb8a74df3d186501bc0e5c9a3d8d930cbe8f337d3fa4835c3d89907dbf19e50cbebb71093b000080bf3d6de1bd66c5d4bbfb4c343a10fabbbc0d5c9a3d9ebcb2bdbe927d3f333709bd2a037fbf1db9b3bd8dacd439000080bf9e6e57ba7844d4bb8174df3d8fee38bcedf20c3e9ebcb2bdbe927d3f333709bd2a037fbf1db9b3bd8dacd439000080bf99e6e0bd5fb12ebcfb4c343a7aaa7bbcecf20c3e43a418bdecf17d3f0579f7bd5dd17fbfd5681abd06afa8ba000080bfc706b7bacfd82ebc43a3dcbd306401bc8a0040bedb3a24b53cee3dbf63a52bbf0000803fbde94ab5a949a3b3000080bf10a3dcbd386501bc8052343a406b35bb62d045bedb3a24b53cee3dbf63a52bbf0000803fbde94ab5a949a3b3000080bf2b6c343a406b35bb8052343a906401bc8a0040bedb3a24b53cee3dbf63a52bbf0000803fbde94ab5a449a3b3000080bf6c6c343a406501bc8d74df3df06401bc8a0040bedb3a24b53cee3dbf63a52bbf0000803fbde94ab5a449a3b3000080bfc074df3d486501bc45a3dcbd586401bc0e5c9a3d46c80cbeae917dbf7e161fb46f4c7c3fb2130cbedcc1ccbd000080bfdca3dcbd346501bc43a3dcbd306401bc8a0040be7dc88cbd46937ebf9f1aeabc6b247e3fff9d86bd963bcebd000080bfdaa3dcbd456401bcfb4c343a10fabbbc0d5c9a3d7dc88cbd46937ebf9f1aeabc6b247e3fff9d86bd963bcebd000080bfa287343a3e6501bc8052343a906401bc8a0040be48ff5cb5df947fbf771a6abd45b07e3fba4cbd3b56b2cebd000080bfc21b343a4f6401bcfb4c343a10fabbbc0d5c9a3d038e0c3e96297dbf2de367bde3187c3fd0d1113ee497ccbd000080bfa287343a3e6501bc8052343a906401bc8a0040becc8d8c3dcb947ebf53e3e7bc200b7e3f4720923dc230cebd000080bfc21b343a4f6401bc8a74df3d186501bc0e5c9a3dcc8d8c3dcb947ebf53e3e7bc200b7e3f4720923dc230cebd000080bf4774df3d486501bc8d74df3df06401bc8a0040bee95b5db5000080bf342a18b45cb17e3faa6358b539b3cebd000080bf4a74df3d596401bc8052343a906401bc8a0040bedb3a24353cee3d3f63a52b3f94fb7fbf234aff3b293a0dbc000080bf425340ba700316bc8052343a406b35bb62d045bedb3a24353cee3d3f63a52b3f94fb7fbf974aff3b693a0dbc000080bf570c29ba80e0c5ba43a3dcbd306401bc8a0040bedb3a24353cee3d3f63a52b3f94fb7fbf974aff3b693a0dbc000080bf3793dc3dc0a42abc43a3dcbdc06935bb62d045bedb3a24353cee3d3f63a52b3f94fb7fbf0a4bff3ba83a0dbc000080bfc5c1dc3dc07535bb8d74df3df06401bc8a0040bedb3a24353cee3d3f63a52b3f94fb7fbf0a4bff3ba83a0dbc000080bf8394dfbd106201bc8d74df3dc06c35bb62d045bedb3a24353cee3d3f63a52b3f94fb7fbf964aff3b683a0dbc000080bff565dfbd005883b98052343a906401bc8a0040be48ff5c35df947f3f751a6a3d467c14bfefb33e3d733250bf000080bf48e67b3d19aac93c43a3dcbd306401bc8a0040be7dc88c3d46937e3f9d1aea3c246814bf5be1813d0ff64fbf000080bf62b1c83d0f0ddabcfb4c343a10fabbbc0d5c9a3d7dc88c3d46937e3f9d1aea3c246814bf5be1813d0ff64fbf000080bfadc480bd780683bd45a3dcbd586401bc0e5c9a3d46c80c3eae917d3f7d161f34654814bf85a7a43d27aa4fbf000080bf6a6fd6bc50a8ebbd8d74df3df06401bc8a0040bee95b5d350000803f342a1834477c14bfa2611f35b78950bf000080bf9ad3cc3c4f589b3d8052343a906401bc8a0040becc8d8cbdcb947e3f53e3e73c3e6814bf42c889bc988c50bf000080bf48e67b3d19aac93c8a74df3d186501bc0e5c9a3dcc8d8cbdcb947e3f53e3e73c3e6814bf42c889bc988c50bf000080bf5718cbbdec654ebcfb4c343a10fabbbc0d5c9a3d038e0cbe96297d3f2de3673dae4814bf84530abd8c8050bf000080bfadc480bd780683bd
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: -0.0077992054, z: -0.027766146}
+    m_Extent: {x: 0.1288508, y: 0.015147182, z: 0.16541159}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1187630.4
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!43 &1683679283
 Mesh:
   m_ObjectHideFlags: 0
@@ -21804,7 +22135,7 @@ Transform:
   m_GameObject: {fileID: 1817095435}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0.11396957, y: 1.6456189, z: 0.019809343}
+  m_LocalPosition: {x: 0.114087105, y: 1.6456207, z: 0.019859865}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26291,6 +26622,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.6
       objectReference: {fileID: 0}
+    - target: {fileID: 375815361510388586, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Board Canvas
+      objectReference: {fileID: 0}
     - target: {fileID: 410830223523370647, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
         type: 3}
       propertyPath: m_Mesh
@@ -28885,6 +29221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.222
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021707798865990523, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+        type: 3}
+      propertyPath: m_Name
+      value: Teacher Desk
       objectReference: {fileID: 0}
     - target: {fileID: 7023954851890513915, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
         type: 3}

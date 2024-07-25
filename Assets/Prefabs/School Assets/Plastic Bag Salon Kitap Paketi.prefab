@@ -3259,6 +3259,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aday Yoklama Listesi
       objectReference: {fileID: 0}
+    - target: {fileID: 6753751147656941251, guid: 2a36bf6e85da94103b34ee820f05c227,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7310195956471173929, guid: 2a36bf6e85da94103b34ee820f05c227,
         type: 3}
       propertyPath: m_LocalScale.x
