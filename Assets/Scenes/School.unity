@@ -1926,7 +1926,7 @@ MonoBehaviour:
             m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, s\u0131n\u0131fta
               s\u0131ralar\u0131 kontrol eder. \xDCst\xFCnde, alt\u0131nda veya s\u0131ra
               numaralar\u0131nda bir s\u0131k\u0131nt\u0131 olmad\u0131\u011F\u0131n\u0131
-              kontrol eder. \u20BA-+"
+              kontrol eder."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -1940,10 +1940,11 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: "Salon S\u0131nav Ba\u015Fkan\u0131, Aday\u0131n S\u0131nav
-              Giri\u015F Belgesi ve \xFCzerinde T\xFCrkiye Cumhuriyeti Kimlik Numaras\u0131
-              bulunan Ge\xE7erli Kimlik Belgesi\u2019ni G\xF6zetmen ile birlikte
-              kontrol ederek adaylar\u0131 s\u0131n\u0131fa al\u0131r."
+            m_StringArgument: "Salon S\u0131nav Ba\u015Fkan\u0131 veya G\xF6zetmen,
+              Aday\u0131n S\u0131nav Giri\u015F Belgesi ve \xFCzerinde T\xFCrkiye
+              Cumhuriyeti Kimlik Numaras\u0131 bulunan Ge\xE7erli Kimlik Belgesi\u2019ni
+              G\xF6zetmen ile birlikte kontrol ederek adaylar\u0131 s\u0131n\u0131fa
+              al\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
     - m_PersistentCalls:
@@ -2317,16 +2318,20 @@ PlayableDirector:
     - 091a7574fca0648e8994c834bf89454f: {fileID: 1817095437}
     - 4c9c54708ab2642cd94af0c768857de9: {fileID: 1817095437}
     - 287028a0ae96e414bb61f87c23fbf0b0: {fileID: 1895368079}
+    - bb4e94afb0f324e089c44f2cb9f3eb3f: {fileID: 1817095437}
     - 8523bae35bfef4bdc821678f112e9a70: {fileID: 1817095437}
     - e4601de19d3f745fe9bc66f599ae2edd: {fileID: 1817095437}
     - bafda34161cc24c5c8c6475c8f9f1779: {fileID: 1817095437}
     - c53c28bb144594b88b578fba8fd9839c: {fileID: 1486936471}
+    - 330c554d697e94f4fa90cdf12b2fefb9: {fileID: 1817095437}
     - d2698b9b9af6f478b9a5afe67028b6a5: {fileID: 1895368079}
     - cf6cab4f213624523bb156cb479fa7df: {fileID: 1817095437}
     - ef845797a946f4af1b670c7376ee8268: {fileID: 2024843747}
     - 37f7876478a1a458ead6fccad67b7b69: {fileID: 1486936471}
     - da14e987174c64903b1d51e86617bc9f: {fileID: 1817095437}
+    - b04b2b4005e5943d587a3e9047ae27f7: {fileID: 2024843747}
     - 237cb4741001648449e6c96ed16f76c4: {fileID: 1817095437}
+    - 779674dbfffe64fea94a436df7d58363: {fileID: 1817095437}
     - 588326d81a3644df99b911c767be98e7: {fileID: 1817095437}
     - 6f056639c08d647058375a191a7c8f14: {fileID: 1895368079}
     - 50d5abe379e5c4e22a8535bf69728b98: {fileID: 1817095437}
@@ -3697,8 +3702,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.3656006, y: 0.7574997}
-  m_SizeDelta: {x: -33.4487, y: -16.9041}
+  m_AnchoredPosition: {x: -0.3656006, y: 3.1362}
+  m_SizeDelta: {x: -33.4487, y: -21.6617}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &320282674
 MonoBehaviour:
@@ -3759,7 +3764,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 0.1
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -4031,9 +4036,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.2
+  near clip plane: 0.01
   far clip plane: 500
-  field of view: 45
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -4059,8 +4064,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.01621621, y: 0.70677406, z: -0.01560221, w: 0.7070814}
-  m_LocalPosition: {x: 8.165298, y: 1.5212564, z: -2.4181836}
+  m_LocalRotation: {x: -0.004058653, y: -0.106878206, z: 0.036415182, w: 0.99359673}
+  m_LocalPosition: {x: -5.3472915, y: 1.6882982, z: -9.566608}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18510,7 +18515,7 @@ Transform:
   m_GameObject: {fileID: 1486936469}
   serializedVersion: 2
   m_LocalRotation: {x: 0.025965428, y: -0.10686236, z: 0.041392606, w: 0.9930725}
-  m_LocalPosition: {x: -0.007770252, y: 0.07394879, z: 0.106430836}
+  m_LocalPosition: {x: -0.00775961, y: 0.07393567, z: 0.106482476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22364,7 +22369,7 @@ Transform:
   m_GameObject: {fileID: 1817095435}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0.11428752, y: 1.6458247, z: 0.019922249}
+  m_LocalPosition: {x: 0.0019952897, y: 1.674, z: 0.032999903}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22387,7 +22392,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 1
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 489763512}
@@ -23427,7 +23432,7 @@ Transform:
   m_GameObject: {fileID: 1895368076}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0.11413901, y: 1.6456963, z: 0.019872783}
+  m_LocalPosition: {x: 0.1141391, y: 1.6456963, z: 0.019872537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23471,7 +23476,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 2
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 489763512}
@@ -25597,7 +25602,7 @@ GameObject:
   - component: {fileID: 2024843748}
   - component: {fileID: 2024843747}
   m_Layer: 0
-  m_Name: Cam2
+  m_Name: Face Cam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25619,7 +25624,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 3
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -25650,13 +25655,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024843746}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.01621621, y: 0.70677406, z: -0.01560221, w: 0.7070814}
-  m_LocalPosition: {x: 8.165298, y: 1.5212564, z: -2.4181836}
+  m_LocalRotation: {x: -0.00043417234, y: -0.9997468, z: 0.02249902, w: -0.00021767616}
+  m_LocalPosition: {x: -0.0031818151, y: 1.5212564, z: 1.1417007}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 210194299}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1484573512}
   m_LocalEulerAnglesHint: {x: 4.315, y: 181.8, z: 0}
 --- !u!43 &2039758350
 Mesh:
@@ -34530,6 +34535,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 903458522}
+    - targetCorrespondingSourceObject: {fileID: 5639130877588593603, guid: ca34c389616f04ad2859e43ae9e4338c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024843748}
     - targetCorrespondingSourceObject: {fileID: 3144884068104987997, guid: ca34c389616f04ad2859e43ae9e4338c,
         type: 3}
       insertIndex: -1
@@ -34549,7 +34558,6 @@ SceneRoots:
   - {fileID: 1520237745}
   - {fileID: 188987893}
   - {fileID: 1145745961}
-  - {fileID: 2024843748}
   - {fileID: 8044302063875994903}
   - {fileID: 2761548004988655964}
   - {fileID: 1651082944}
