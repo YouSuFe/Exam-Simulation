@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6fa2d92fc1b3f34da284357edf89c3b, type: 3}
-  m_Name: Deactivate_Prefab
+  m_Name: Activate_PrefabOnTeacherDesk
   m_EditorClassIdentifier: 
