@@ -29,7 +29,7 @@ public class CreatePrefab : MonoBehaviour
             {
                 var instantiatedObject = Instantiate(mapping.Prefab, mapping.EmptyObject.transform.position, mapping.EmptyObject.transform.rotation);
                 mapping.InstantiatedObject = instantiatedObject;
-                instantiatedObject.SetActive(false); // Initially set inactive
+                instantiatedObject.SetActive(true); // Initially set inactive
             }
         }
     }
