@@ -5128,6 +5128,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 17bf203b80020499b828889a20db422f, type: 2}
     - {fileID: 11400000, guid: 386bcf784d0d845258e92ac37abeb500, type: 2}
     - {fileID: 11400000, guid: 92b4284d54f39425092e7a7b84385b70, type: 2}
+    - {fileID: 11400000, guid: 8635111fd3cdf4b21a48b12873191a94, type: 2}
+    - {fileID: 11400000, guid: a9de540e029194ecb9e1c32524fc2827, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -5864,6 +5866,72 @@ MonoBehaviour:
             m_IntArgument: 3
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1549220022}
+          m_TargetAssemblyTypeName: CreatePrefab, Assembly-CSharp
+          m_MethodName: DeactivatePrefab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1549220022}
+          m_TargetAssemblyTypeName: CreatePrefab, Assembly-CSharp
+          m_MethodName: DeactivatePrefab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1549220022}
+          m_TargetAssemblyTypeName: CreatePrefab, Assembly-CSharp
+          m_MethodName: DeactivatePrefab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1549220022}
+          m_TargetAssemblyTypeName: CreatePrefab, Assembly-CSharp
+          m_MethodName: DeactivatePrefab
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1145745960}
+          m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+          m_MethodName: SetDialogue
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: "S\u0131nav Salon Ba\u015Fkan\u0131, S\u0131nav Evrap
+              Po\u015Feti'ni teslim ederken S\u0131nav Evrak Po\u015Feti'ni teslim
+              etti\u011Fine dair bir imza atmal\u0131d\u0131r."
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!320 &188987892
@@ -9417,7 +9485,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0.004058653, y: -0.106878206, z: 0.036415182, w: 0.99359673}
-  m_LocalPosition: {x: -5.3472733, y: 1.6883583, z: -9.566435}
+  m_LocalPosition: {x: -5.3472805, y: 1.6884711, z: -9.566305}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43946,7 +44014,7 @@ Transform:
   m_GameObject: {fileID: 1486936469}
   serializedVersion: 2
   m_LocalRotation: {x: 0.025965428, y: -0.10686236, z: 0.041392606, w: 0.9930725}
-  m_LocalPosition: {x: -0.007733631, y: 0.07406221, z: 0.106667}
+  m_LocalPosition: {x: -0.0077507924, y: 0.07409068, z: 0.10679542}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46663,7 +46731,7 @@ Transform:
   m_GameObject: {fileID: 1609411874}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0.0019635782, y: 1.6740003, z: 0.03301835}
+  m_LocalPosition: {x: 0.0019653153, y: 1.6740003, z: 0.03302975}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52428,7 +52496,7 @@ Transform:
   m_GameObject: {fileID: 1817095435}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2164396, y: 0, z: 0, w: 0.97629607}
-  m_LocalPosition: {x: 0.0019747699, y: 1.6739997, z: 0.033026576}
+  m_LocalPosition: {x: 0.002000024, y: 1.6739997, z: 0.033092346}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
