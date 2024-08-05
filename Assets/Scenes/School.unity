@@ -9549,7 +9549,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0.004058653, y: -0.106878206, z: 0.036415182, w: 0.99359673}
-  m_LocalPosition: {x: -5.3472886, y: 1.6884749, z: -9.56627}
+  m_LocalPosition: {x: -5.347289, y: 1.6884749, z: -9.56627}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44626,7 +44626,7 @@ Transform:
   m_GameObject: {fileID: 1486936469}
   serializedVersion: 2
   m_LocalRotation: {x: 0.025965428, y: -0.10686236, z: 0.041392606, w: 0.9930725}
-  m_LocalPosition: {x: -0.0077595115, y: 0.074092194, z: 0.10683091}
+  m_LocalPosition: {x: -0.0077595604, y: 0.07409225, z: 0.10683073}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62097,6 +62097,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 628441999}
+    - target: {fileID: 471167714100145650, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+        type: 3}
+      propertyPath: m_TagString
+      value: ClassroomFloor
+      objectReference: {fileID: 0}
     - target: {fileID: 499357877021461166, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
         type: 3}
       propertyPath: m_Mesh
@@ -64087,6 +64092,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1464307405}
+    - target: {fileID: 2194959925865653665, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+        type: 3}
+      propertyPath: m_TagString
+      value: MeetingroomFloor
+      objectReference: {fileID: 0}
     - target: {fileID: 2205758758788400010, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
         type: 3}
       propertyPath: m_Mesh
@@ -68522,6 +68532,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 751350936}
+    - target: {fileID: 6847605855172064562, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
+        type: 3}
+      propertyPath: m_TagString
+      value: SchoolHall
+      objectReference: {fileID: 0}
     - target: {fileID: 6855189349469861498, guid: 45050fa9c66f44ce8b845706c4bfd8d3,
         type: 3}
       propertyPath: m_Mesh
@@ -73666,13 +73681,7 @@ PrefabInstance:
     - target: {fileID: 1775011385582223801, guid: ca34c389616f04ad2859e43ae9e4338c,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'Right_ThumbIntermediate'\n\tTransform 'Left_IndexProximal'\n\tTransform
-        'Right_IndexProximal'\n\tTransform 'Right_MiddleIntermediate'\n\tTransform
-        'Left_LowerArm'\n\tTransform 'Left_PinkyDistal'\n\tTransform 'Left_RingIntermediate'\n\tTransform
-        'Chest'\n\tTransform 'Skeleton'\n\tTransform 'Right_ThumbDistal'\n\tand more
-        ..."
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1777920378404092256, guid: ca34c389616f04ad2859e43ae9e4338c,
         type: 3}
@@ -75281,6 +75290,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8044302063875994905}
+    - targetCorrespondingSourceObject: {fileID: 4974761299887686009, guid: ca34c389616f04ad2859e43ae9e4338c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8044302063875994911}
   m_SourcePrefab: {fileID: 100100000, guid: ca34c389616f04ad2859e43ae9e4338c, type: 3}
 --- !u!1 &8044302063875994904 stripped
 GameObject:
@@ -75384,6 +75397,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8044302063875994911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8044302063875994904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaecc649309274ec68a289f5ca7b9a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hallSteps:
+  - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+  - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+  - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+  clasroomSteps:
+  - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+  - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+  - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+  meetingroomSteps:
+  - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+  - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+  - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
